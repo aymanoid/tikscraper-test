@@ -1,0 +1,19 @@
+{
+  "name": "aymanoid/tikscraper-test",
+  "config": {
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.4"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "php": ">=7.4|^8.0",
+    "bramus/router": "^1.6",
+    "pablouser1/tikscraper": "^2.3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "deemon47/user-agent-generator",
+    "description": "Generate random User-Agent http header with parameters",
+    "type": "library",
+    "license":"GPL-3.0-only",
+    "authors": [
+        {
+            "name":"phpfail",
+            "email":"phpfail@gihub.com"
+        },
+        {
+            "name": "Dee",
+            "email": "deemon47@gmail.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Deemon47\\": "./"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
